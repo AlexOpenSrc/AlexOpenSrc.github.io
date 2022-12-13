@@ -1,0 +1,164 @@
+html, body {
+  background-color:#fff ;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  display: block;
+  padding: 0 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold; 
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  text-transform: uppercase;
+  transition: .5s;
+}
+li a{
+  color: #1F0B44;
+  text-decoration: none;
+  transition: .5s;
+  padding: 15px;
+}
+ul:hover li a{
+  filter: blur(5px);
+}
+ul:hover li a:hover{
+  font-size: 35px;
+  filter: blur(0px);
+  background-color: #F69A36 ;
+}
+p2,p4,p6{
+  color: blue;
+} 
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+h1{
+  color: rgb(red, green, blue)
+}
+#sse1
+{
+    /*You can decorate the menu's container, such as adding background images through this block*/
+    background-color: #222;
+    height: 38px;
+    padding: 15px;
+    border-radius: 3px;
+}
+#sses1
+{
+    margin:0 auto;/*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+#sses1 ul 
+{ 
+    position: relative;
+    list-style-type: none;
+    float:left;
+    padding:0;margin:0;
+    border-bottom:solid 1px #6C0000;
+}
+#sses1 li
+{
+    float:left;
+    list-style-type: none;
+    padding:0;margin:0;background-image:none;
+}
+/*CSS for background bubble*/
+#sses1 li.highlight
+{
+    background-color:#800;
+    top:36px;
+    height:2px;
+    border-bottom:solid 1px #C00;
+    z-index: 1;
+    position: absolute;
+    overflow:hidden;
+    
+}
+#sses1 li a
+{
+    height:30px;
+    padding-top: 8px;
+    margin: 0 20px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    color: #fff;
+    font: normal 12px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+.button {
+  background-color: #3D256A; 
+  border: none;
+  color:  #F69A36;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.box {
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  color: #3D256A;
+  font-size: 10px;
+  margin-right: 40px;
+  width: 800px;
+  height: 115px;
+  border-radius: 10px;
+  background-color: #F69A36;
+  padding: 1em;
+}
+.box1 {
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  color: #3D256A;
+  font-size: 10px;
+  margin-right: 40px;
+  width: 800px;
+  height: 430px;
+  border-radius: 10px;
+  background-color: #F69A36;
+  padding: 1em;
+}
+.box2 { 
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  color: #3D256A;
+  font-size: 10px;
+  margin-right: 40px;
+  width: 800px;
+  height: 135px;
+  border-radius: 10px;
+  background-color: #F69A36;
+  padding: 1em;
+}
+h2{
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  font-size:20px;
+  color: black;
+}
+h3{
+  font-size:14px;
+}
+h1{
+  font-size: 80px;
+  font-weight: bold; 
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+p6{
+  text-align: right;
+  font-size: 15px;
+  color: black;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}

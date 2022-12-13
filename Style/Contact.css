@@ -1,0 +1,254 @@
+html, body {
+  background-color:#fff ;
+}
+
+.container-img{
+     display:block;
+     position:relative;
+     overflow:hidden;
+}
+
+
+
+
+figure.snip1432 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: left;
+}
+figure.snip1432 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+figure.snip1432 img {
+  opacity: 0.8;
+  width: 100%;
+  vertical-align: top;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip1432 figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+figure.snip1432 figcaption > div {
+  height: 50%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+figure.snip1432 h2,
+figure.snip1432 h3 {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+figure.snip1432 h2 {
+  font-weight: 900;
+  top: 0;
+}
+figure.snip1432 h3 {
+  font-size: 1em;
+  bottom: 0;
+  font-weight: 500;
+}
+figure.snip1432 h3:nth-of-type(2) {
+  opacity: 0;
+  -webkit-transform: translateY(150%);
+  transform: translateY(150%);
+}
+figure.snip1432 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+figure.snip1432:hover img,
+figure.snip1432.hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+figure.snip1432:hover figcaption h3:first-of-type,
+figure.snip1432.hover figcaption h3:first-of-type {
+  -webkit-transform: translateY(150%);
+  transform: translateY(150%);
+  opacity: 0;
+}
+figure.snip1432:hover figcaption h3:nth-of-type(2),
+figure.snip1432.hover figcaption h3:nth-of-type(2) {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+
+
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  display: block;
+  padding: 0 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold; 
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  text-transform: uppercase;
+  transition: .5s;
+}
+li a{
+  color: #1F0B44;
+  text-decoration: none;
+  transition: .5s;
+  padding: 15px;
+}
+ul:hover li a{
+  filter: blur(5px);
+}
+ul:hover li a:hover{
+  font-size: 35px;
+  filter: blur(0px);
+  background-color: #F69A36 ;
+}
+p2,p4,p6{
+  color: blue;
+} 
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+h1{
+  color: rgb(red, green, blue)
+}
+#sse1
+{
+    /*You can decorate the menu's container, such as adding background images through this block*/
+    background-color: #222;
+    height: 38px;
+    padding: 15px;
+    border-radius: 3px;
+}
+#sses1
+{
+    margin:0 auto;/*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+#sses1 ul 
+{ 
+    position: relative;
+    list-style-type: none;
+    float:left;
+    padding:0;margin:0;
+    border-bottom:solid 1px #6C0000;
+}
+#sses1 li
+{
+    float:left;
+    list-style-type: none;
+    padding:0;margin:0;background-image:none;
+}
+/*CSS for background bubble*/
+#sses1 li.highlight
+{
+    background-color:#800;
+    top:36px;
+    height:2px;
+    border-bottom:solid 1px #C00;
+    z-index: 1;
+    position: absolute;
+    overflow:hidden;
+    
+}
+#sses1 li a
+{
+    height:30px;
+    padding-top: 8px;
+    margin: 0 20px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    color: #fff;
+    font: normal 12px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+/*bouton*/
+.button {
+  background-color: #F69A36; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+h1{
+  font-size: 80px;
+  font-weight: bold; 
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  color:#1F0B44;
+}
+h2{
+  font-size: 50px;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  color:black;
+}
+p1{
+  font-family: Lato;
+  font-size: 28px;
+  color:#1F0B44;
+}
+.button1 {
+  background-color: #F69A36; 
+  border-color: #3D256A ;
+  border-width: 3px;
+  color:  #3D256A;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+fieldset{
+  width: 250px;
+  font-size: 20px;
+}
+p6{
+  text-align: right;
+  font-size: 15px;
+  color: black;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
